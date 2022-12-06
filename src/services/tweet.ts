@@ -45,7 +45,7 @@ export async function buildTweet(nftPublicKey: string, nftData: NftData) {
   const nft = await metaplex?.nfts()?.findByMint({ mintAddress })
   const { image, name } = nft?.json ?? {}
 
-  const tweet = ['hoot hoot 🦉\n\n']
+  const tweet = ['Welcome to the City of Elixir! 🔮🦉\n\n']
 
   // Build the main tweet which shares sales data
   tweet.push(await getSalesTweet(name, amount, nftData))
