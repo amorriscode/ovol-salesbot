@@ -1,14 +1,6 @@
-<div align="center">
-  <img height="160x" src="https://user-images.githubusercontent.com/16005567/204155023-4ee739e0-f204-4dd6-b750-17b6395ef58e.png" />
+# Ovol Salesbot
 
-  <h1>Claynoscorz</h1>
-
-  <p>
-    <strong>A Claynosaurz Twitter sales bot</strong>
-  </p>
-</div>
-
-[Claynosaurz](https://claynosaurz.com/) is a 10k pfp project built on [Solana](https://solana.com/). Any time someone scores a Claynosaur (a sale is made), this bot will [tweet about it](https://twitter.com/claynoscores).
+[Ovols](https://docs.elixirnft.io/nectars-and-pfps/ovols) is a 10k pfp project built on [Solana](https://solana.com/). Any time someone buys an Ovol (a sale is made), this bot will [tweet about it](https://twitter.com/ovol_salesbot).
 
 ## Getting Started
 

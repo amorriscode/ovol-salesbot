@@ -78,5 +78,5 @@ app.get('/health', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`🚀 Claynoscorz listening on ${HOST}:${PORT}`)
+  console.log(`🚀 Ovol Salesbot listening on ${HOST}:${PORT}`)
 })
