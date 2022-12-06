@@ -116,8 +116,7 @@ export async function uploadImage(sourceUrl: string) {
     const initResponse = await post(twitterUrl, {
       command: 'INIT',
       total_bytes: Buffer.byteLength(imageBuffer),
-      media_type: 'image/gif',
-      media_category: 'tweet_gif',
+      media_type: 'image/png',
     })
     const initData = await initResponse.json()
     const mediaId = initData.media_id_string
